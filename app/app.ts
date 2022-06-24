@@ -11,3 +11,5 @@ console.log(negociacao.data);
 
 console.log(negociacao.volume)
 
+negociacao.quantidade;
+
