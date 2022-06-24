@@ -12,7 +12,7 @@ export class Negociacao {
 
     get data() {
         return this._data;
-    }1
+    }
 
     get quantidade() {
         return this._quantidade;
