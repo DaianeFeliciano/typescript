@@ -7,6 +7,6 @@ export class Negociacoes {
         this.negociacoes.push(negociacao);
     }
     lista() {
-        return [...this.negociacoes]; // pega cada ítem desse array individualmente e coloca nessa lista
+        return this.negociacoes; // tipo para quando quer retornar uma lista somente de leitura, não consegue alterar a lista;
     }
 }
