@@ -7,7 +7,7 @@ export class Negociacoes {
         this.negociacoes.push(negociacao);
     }
 
-    lista(): Array<Negociacao> {
-        return [...this.negociacoes]; // pega cada ítem desse array individualmente e coloca nessa lista
+    lista(): ReadonlyArray<Negociacao> {
+        return this.negociacoes; // tipo para quando quer retornar uma lista somente de leitura, não consegue alterar a lista;
     }
 }
